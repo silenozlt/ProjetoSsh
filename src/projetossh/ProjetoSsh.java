@@ -21,6 +21,5 @@ public class ProjetoSsh {
         String resultado = scanner.next();
         System.out.println(resultado);
         
-        
     }
 }
