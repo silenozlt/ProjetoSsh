@@ -20,5 +20,7 @@ public class ProjetoSsh {
         Scanner scanner = new Scanner(p.getInputStream());
         String resultado = scanner.next();
         System.out.println(resultado);
+        
+        
     }
 }
