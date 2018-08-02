@@ -19,7 +19,7 @@ public class ProjetoSsh {
         Process p = r.exec(new String[]{"/bin/sh", "-c", "ifconfig | grep 'inet ' | awk '{print $2}' | sed 's/addr://'"});
         Scanner scanner = new Scanner(p.getInputStream());
         String resultado = scanner.next();
-        System.out.println(resultado);
-        
+        System.out.println("IP : ");
+        System.out.print(resultado);
     }
 }
